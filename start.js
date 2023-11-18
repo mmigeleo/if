@@ -11,4 +11,4 @@ if (user == 'admin' && password == '123456') {
     message = 'Login or Password is/are wrong!';
 }
 
-document.getElementById('start').innerHTML = message;
+document.getElementById('answer').innerHTML = message;
