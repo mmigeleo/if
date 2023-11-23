@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get element</title>
+    <title>Facebook</title>
+    <link rel="stylesheet" href="first.css">
 </head>
 <body>
-    <h1>Hello!</h1>
-    <h2 id="answer">text</h2>
+    <div class="container flex">
+        <div class="facebook-page flex">
+          <div class="text">
+            <h1>Facebook</h1>
+            <p>Connect with friends and the world </p>
+            <p> around you on Facebook.</p>
+          </div>
+          <form action="#">
+            <h2 id="answer"></h2>
+            <input type="login" placeholder="Login or phone number" required>
+            <input type="password" placeholder="Password" required>
+            <div class="link">
+              <button type="submit" class="login">Login</button>
+              <a href="#" class="forgot">Forgot password?</a>
+            </div>
+            <hr>
+            <div class="button">
+              <a href="#">Create new account</a>
+            </div>
+          </form>
+        </div>
+      </div>
     
     <script src="start.js"></script>
 </body>
